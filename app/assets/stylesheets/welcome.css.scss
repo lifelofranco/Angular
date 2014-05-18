@@ -446,6 +446,7 @@ button:active {
   -moz-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  
   margin: 0 auto;
 }
 .loaded .navbar.navbar-fixed-top {
@@ -1246,6 +1247,13 @@ section * {
 }
 .third_row{
 	background: #F6AE2B;
+	color:white;
+	resize:both;
+	overflow: auto;
+	.fa-5x {
+		color:white;
+		
+	}
 }
 .Testimonials {
 	margin-top: 50px;
